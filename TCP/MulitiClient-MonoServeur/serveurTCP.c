@@ -8,7 +8,7 @@
 #include <time.h>       // Pour les fonctions time et localtime
 #include <dirent.h>     // Pour les fonctions opendir, readdir, closedir
 
-#define PORT 8080
+#define PORT 5342
 #define BUFFER_SIZE 1024
 
 void handle_client(int client_socket) {
